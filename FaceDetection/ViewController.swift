@@ -21,7 +21,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let model = FaceDetectionModel(filename: "mobilenet_ssd_320x320_a")
+    let model = FaceDetectionModel(filename: "mobilenet_ssd_320x320")
     manager.pixelBufferRelay.asObservable()
       .map { model.inference(pixelBuffer: $0) }
       .bind(to: previewView.rx.prediction)

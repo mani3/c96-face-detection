@@ -19,7 +19,6 @@
 		B890DA4C22D8F4ED00DBBA0E /* FaceDetectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B890DA4B22D8F4ED00DBBA0E /* FaceDetectionModel.swift */; };
 		B890DA4F22D8FC1100DBBA0E /* CVPixelBufferExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B890DA4E22D8FC1100DBBA0E /* CVPixelBufferExtension.swift */; };
 		B8D3932322DD09C700F0481F /* mobilenet_ssd_320x320.tflite in Resources */ = {isa = PBXBuildFile; fileRef = B8D3932222DD099300F0481F /* mobilenet_ssd_320x320.tflite */; };
-		B8D3932522DD104100F0481F /* mobilenet_ssd_320x320_a.tflite in Resources */ = {isa = PBXBuildFile; fileRef = B8D3932422DD104100F0481F /* mobilenet_ssd_320x320_a.tflite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 		B890DA4B22D8F4ED00DBBA0E /* FaceDetectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionModel.swift; sourceTree = "<group>"; };
 		B890DA4E22D8FC1100DBBA0E /* CVPixelBufferExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVPixelBufferExtension.swift; sourceTree = "<group>"; };
 		B8D3932222DD099300F0481F /* mobilenet_ssd_320x320.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobilenet_ssd_320x320.tflite; sourceTree = "<group>"; };
-		B8D3932422DD104100F0481F /* mobilenet_ssd_320x320_a.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobilenet_ssd_320x320_a.tflite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				B8D3932222DD099300F0481F /* mobilenet_ssd_320x320.tflite */,
-				B8D3932422DD104100F0481F /* mobilenet_ssd_320x320_a.tflite */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -208,7 +205,6 @@
 			files = (
 				B890DA3822D8CB3000DBBA0E /* LaunchScreen.storyboard in Resources */,
 				B890DA3522D8CB3000DBBA0E /* Assets.xcassets in Resources */,
-				B8D3932522DD104100F0481F /* mobilenet_ssd_320x320_a.tflite in Resources */,
 				B890DA3322D8CB2F00DBBA0E /* Main.storyboard in Resources */,
 				B8D3932322DD09C700F0481F /* mobilenet_ssd_320x320.tflite in Resources */,
 			);
